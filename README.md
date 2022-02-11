@@ -2,11 +2,41 @@
 
 ## Resources
 
+### Flake8
+
+To install (venv recommended)
+```sh
+pip install flake8
+```
+
+To check all Python scripts in current directory
+```sh
+flake8 . --count --exit-zero --max-complexity=5  --statistics
+```
+
+### Pytest-cov
+To install (venv recommended)
+
+```sh
+pip install pytest-cov
+```
+
+To get statistics for all tests
+```
+pytest --cov=. tests
+```
+
 ### Docstring generator
 
 <https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring>
 
 ### Sphinx
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install sphinx
+```
 
 <https://www.sphinx-doc.org/en/master/tutorial/getting-started.html>
 

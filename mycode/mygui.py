@@ -11,7 +11,7 @@ With logging
     from mygui import MyGUI
 
     ui = MyGUI("my name")
-    ui.start()
+    ui.run()
 
 """
 
@@ -39,8 +39,6 @@ class MyGUI:
         self._root.geometry("300x300+250+100") 
         self.__style = ttk.Style(self._root)
         mainframe = ttk.Frame(self._root)
-
-
         mainframe.grid(column=0, row=0, sticky=(tkinter.N, tkinter.W, tkinter.E, tkinter.S))
         self._root.columnconfigure(0, weight=2)
         self._root.rowconfigure(0, weight=2)
@@ -68,10 +66,14 @@ class MyGUI:
         """Called when button clicked.
         """
         logger.info("click")
+        self.click_action()
+
+    def click_action(self):
+        """An example action to use with click()
+        """
         self._idx += 1
         if self._idx == len(self._colors): self._idx = 0
         self.set_color(self._colors[self._idx])
-
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
