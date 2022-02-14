@@ -15,7 +15,7 @@
 Welcome to mygui's documentation!
 =================================
 
-.. automodule:: mycode.mygui
+.. automodule:: mycode.src.mygui
    :members:
    :private-members:
    :special-members:

@@ -26,6 +26,11 @@ To get statistics for all tests
 pytest --cov=. tests
 ```
 
+### Tox
+
+Example
+<https://github.com/PyCQA/flake8/blob/main/tox.ini>
+
 ### Docstring generator
 
 <https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring>
