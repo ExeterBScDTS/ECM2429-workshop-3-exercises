@@ -9,11 +9,13 @@
    :imported-members:
    :show-inheritance:
 
+.. nonsense
+   fdfdfsd
 
 Welcome to mygui's documentation!
 =================================
 
-.. automodule:: mycode.mygui
+.. automodule:: sqlite3
    :members:
    :private-members:
    :special-members:

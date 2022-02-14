@@ -32,10 +32,20 @@ pytest --cov=. tests
 
 ### Sphinx
 
+To install
+
 ```sh
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install sphinx
+python -p pip install rinohtype
+```
+
+To create docs
+
+```sh
+make.bat html
+make.bat rinoh
 ```
 
 <https://www.sphinx-doc.org/en/master/tutorial/getting-started.html>

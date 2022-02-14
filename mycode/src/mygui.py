@@ -50,7 +50,12 @@ class MyGUI:
         # Set frame background colour
         self.__style.configure('TFrame', background=self._colors[0])
 
-    def run(self):
+    def run(self, a:str):
+        """[summary]
+
+        Args:
+            a (str): [description]
+        """
         self._root.mainloop()
 
     def set_color(self, color:str):
