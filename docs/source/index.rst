@@ -15,7 +15,7 @@
 Welcome to mygui's documentation!
 =================================
 
-.. automodule:: sqlite3
+.. automodule:: mygui
    :members:
    :private-members:
    :special-members:
