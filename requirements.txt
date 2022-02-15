@@ -2,4 +2,6 @@ flake8
 pytest-cov
 sphinx
 rinohtype
+tox
+
 
